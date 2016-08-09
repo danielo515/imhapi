@@ -1,0 +1,25 @@
+{
+  "name": "imhapi",
+  "version": "1.0.0",
+  "description": "Tutorial para aprender a ser hapi en grupo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielo515/imhapi.git"
+  },
+  "keywords": [
+    "pene"
+  ],
+  "author": "Danielo Rodríguez Rivero <danielo@caseonit.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/danielo515/imhapi/issues"
+  },
+  "homepage": "https://github.com/danielo515/imhapi#readme",
+  "devDependencies": {
+    "lab": "^10.9.0"
+  }
+}
