@@ -21,5 +21,8 @@
   "homepage": "https://github.com/danielo515/imhapi#readme",
   "devDependencies": {
     "lab": "^10.9.0"
+  },
+  "dependencies": {
+    "hapi": "^14.1.0"
   }
 }
