@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielo515/imhapi.git"
+    "url": "git+https://github.com/caseonit/imhapi.git"
   },
   "keywords": [
     "pene"
@@ -16,13 +16,14 @@
   "author": "Danielo Rodríguez Rivero <danielo@caseonit.com>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/danielo515/imhapi/issues"
+    "url": "https://github.com/caseonit/imhapi/issues"
   },
-  "homepage": "https://github.com/danielo515/imhapi#readme",
+  "homepage": "https://github.com/caseonit/imhapi#readme",
   "devDependencies": {
     "lab": "^10.9.0"
   },
   "dependencies": {
-    "hapi": "^14.1.0"
+    "hapi": "^14.1.0",
+    "hoek": "^4.0.2"
   }
 }
