@@ -4,7 +4,8 @@
   "description": "Tutorial para aprender a ser hapi en grupo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "lab -La code -t 100",
+    "test-cov-html": "lab -La code -r html -o coverage.html",
     "start": "node ./lib/start.js"
   },
   "repository": {
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/caseonit/imhapi#readme",
   "devDependencies": {
+    "code": "^3.0.2",
     "lab": "^10.9.0"
   },
   "dependencies": {
