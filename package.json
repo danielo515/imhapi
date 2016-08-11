@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "hapi": "^14.1.0",
+    "hapi-auth-basic": "^4.2.0",
     "hoek": "^4.0.2"
   }
 }
