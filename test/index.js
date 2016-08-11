@@ -48,11 +48,11 @@ describe('index', () => {
 
         it('should return a instance of server listening on given port', (done) => {
 
-            Lib.init(0,(err, server) => {
+            Lib.init(3000,(err, server) => {
 
                 expect(err).to.be.undefined();
                 expect(server instanceof Hapi.Server).to.equal(true);
-                expect(server.info.port).to.equal(0);
+                expect(server.info.port).to.equal(3000);
                 server.stop(done);
             });
         });
